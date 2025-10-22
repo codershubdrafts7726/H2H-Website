@@ -17,7 +17,7 @@ const NamePhilosophy = ({ onNext }: NamePhilosophyProps) => {
           className="text-center"
         >
           <h2 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-6 animate-shimmer bg-[length:200%_100%]">
-            Humerah
+            Humera
           </h2>
         </motion.div>
 
@@ -35,7 +35,7 @@ const NamePhilosophy = ({ onNext }: NamePhilosophyProps) => {
 
           <div className="space-y-4 text-lg text-muted-foreground">
             <p className="leading-relaxed">
-              In the Arabic tongue, <span className="text-primary font-semibold">Humerah</span> means "red" — 
+              In the Arabic tongue, <span className="text-primary font-semibold">Humera</span> means "red" — 
               but it is not merely a color. It is the warmth of life itself,
               the pulse of a beating heart, the passion that colors every moment with meaning.
             </p>
