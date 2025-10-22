@@ -95,7 +95,7 @@ const RevealSection = ({ onRestart }: RevealSectionProps) => {
           className="space-y-6"
         >
           <p className="text-2xl md:text-3xl text-foreground/90 font-light">
-            Humerah
+            Humera
           </p>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             You are the light that colors my world,
