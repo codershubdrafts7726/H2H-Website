@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Romantic midnight to dawn gradient theme */
+    --background: 240 30% 8%;
+    --foreground: 340 100% 98%;
+
+    --card: 240 20% 12%;
+    --card-foreground: 340 100% 98%;
+
+    --popover: 240 25% 10%;
+    --popover-foreground: 340 100% 98%;
+
+    /* Rose gold primary for romance */
+    --primary: 340 82% 68%;
+    --primary-foreground: 240 30% 8%;
+
+    /* Deep purple secondary for mystery */
+    --secondary: 270 60% 35%;
+    --secondary-foreground: 340 100% 98%;
+
+    --muted: 240 20% 20%;
+    --muted-foreground: 340 20% 70%;
+
+    /* Golden accent for premium feel */
+    --accent: 45 100% 65%;
+    --accent-foreground: 240 30% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 340 100% 98%;
+
+    --border: 240 20% 20%;
+    --input: 240 20% 15%;
+    --ring: 340 82% 68%;
+
+    --radius: 1rem;
+
+    /* Custom romantic colors */
+    --romantic-glow: 340 82% 68%;
+    --mystery-deep: 260 50% 15%;
+    --golden-shimmer: 45 100% 65%;
+    --heart-pulse: 350 85% 65%;
+    
+    /* Gradients */
+    --gradient-romantic: linear-gradient(135deg, hsl(260 50% 15%) 0%, hsl(270 60% 25%) 50%, hsl(340 60% 35%) 100%);
+    --gradient-mystery: linear-gradient(180deg, hsl(240 30% 8%) 0%, hsl(260 40% 12%) 100%);
+    --gradient-golden: linear-gradient(135deg, hsl(45 100% 65%) 0%, hsl(340 82% 68%) 100%);
+    --gradient-reveal: radial-gradient(circle at center, hsl(340 82% 68% / 0.3) 0%, transparent 70%);
+    
+    /* Shadows and glows */
+    --glow-romantic: 0 0 40px hsl(340 82% 68% / 0.4), 0 0 80px hsl(340 82% 68% / 0.2);
+    --glow-golden: 0 0 30px hsl(45 100% 65% / 0.5);
+    --shadow-premium: 0 20px 60px -10px hsl(240 30% 8% / 0.6);
+    
+    /* Animations */
+    --transition-smooth: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
